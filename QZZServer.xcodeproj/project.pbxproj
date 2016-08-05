@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C92A50621D4F1F7500ED9DCC /* DemoServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92A50521D4F1F7500ED9DCC /* DemoServer.swift */; };
+		C92A50631D4F1F7500ED9DCC /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92A50531D4F1F7500ED9DCC /* File.swift */; };
+		C92A50641D4F1F7500ED9DCC /* Files.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92A50541D4F1F7500ED9DCC /* Files.swift */; };
+		C92A50651D4F1F7500ED9DCC /* HttpParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92A50551D4F1F7500ED9DCC /* HttpParser.swift */; };
+		C92A50661D4F1F7500ED9DCC /* HttpRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92A50561D4F1F7500ED9DCC /* HttpRequest.swift */; };
+		C92A50671D4F1F7500ED9DCC /* HttpResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92A50571D4F1F7500ED9DCC /* HttpResponse.swift */; };
+		C92A50681D4F1F7500ED9DCC /* HttpRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92A50581D4F1F7500ED9DCC /* HttpRouter.swift */; };
+		C92A50691D4F1F7500ED9DCC /* HttpServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92A50591D4F1F7500ED9DCC /* HttpServer.swift */; };
+		C92A506A1D4F1F7500ED9DCC /* HttpServerIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92A505A1D4F1F7500ED9DCC /* HttpServerIO.swift */; };
+		C92A506B1D4F1F7500ED9DCC /* Process.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92A505B1D4F1F7500ED9DCC /* Process.swift */; };
+		C92A506C1D4F1F7500ED9DCC /* Scopes.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92A505C1D4F1F7500ED9DCC /* Scopes.swift */; };
+		C92A506D1D4F1F7500ED9DCC /* Socket.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92A505D1D4F1F7500ED9DCC /* Socket.swift */; };
+		C92A506E1D4F1F7500ED9DCC /* String+BASE64.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92A505E1D4F1F7500ED9DCC /* String+BASE64.swift */; };
+		C92A506F1D4F1F7500ED9DCC /* String+Misc.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92A505F1D4F1F7500ED9DCC /* String+Misc.swift */; };
+		C92A50701D4F1F7500ED9DCC /* String+SHA1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92A50601D4F1F7500ED9DCC /* String+SHA1.swift */; };
+		C92A50711D4F1F7500ED9DCC /* WebSockets.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92A50611D4F1F7500ED9DCC /* WebSockets.swift */; };
+		C92A50731D4F206A00ED9DCC /* QZZServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92A50721D4F206A00ED9DCC /* QZZServer.swift */; };
+		C92A50781D4F20E100ED9DCC /* UserRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92A50771D4F20E100ED9DCC /* UserRecord.swift */; };
+		C92A507A1D4F24A600ED9DCC /* data.db in Resources */ = {isa = PBXBuildFile; fileRef = C92A50791D4F24A600ED9DCC /* data.db */; };
+		C92A507C1D4F342600ED9DCC /* DataAccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92A507B1D4F342600ED9DCC /* DataAccess.swift */; };
+		C92A50811D4F596500ED9DCC /* Statistic.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92A50801D4F596500ED9DCC /* Statistic.swift */; };
+		C998445C1D506C9C00FD54D9 /* QALibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = C998445B1D506C9C00FD54D9 /* QALibrary.swift */; };
+		C9CCB44D1D4F1924006D5208 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CCB44C1D4F1924006D5208 /* AppDelegate.swift */; };
+		C9CCB44F1D4F1924006D5208 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9CCB44E1D4F1924006D5208 /* Assets.xcassets */; };
+		C9CCB4521D4F1924006D5208 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9CCB4501D4F1924006D5208 /* MainMenu.xib */; };
+		C9CCB45E1D4F1947006D5208 /* SQLiteDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CCB45A1D4F1947006D5208 /* SQLiteDB.swift */; };
+		C9CCB45F1D4F1947006D5208 /* SQLTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CCB45B1D4F1947006D5208 /* SQLTable.swift */; };
+		C9CCB4601D4F1947006D5208 /* String-Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CCB45C1D4F1947006D5208 /* String-Extras.swift */; };
+		C9CCB4631D4F1985006D5208 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C9CCB4621D4F1985006D5208 /* libsqlite3.tbd */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C92A50521D4F1F7500ED9DCC /* DemoServer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoServer.swift; sourceTree = "<group>"; };
+		C92A50531D4F1F7500ED9DCC /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		C92A50541D4F1F7500ED9DCC /* Files.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Files.swift; sourceTree = "<group>"; };
+		C92A50551D4F1F7500ED9DCC /* HttpParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpParser.swift; sourceTree = "<group>"; };
+		C92A50561D4F1F7500ED9DCC /* HttpRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpRequest.swift; sourceTree = "<group>"; };
+		C92A50571D4F1F7500ED9DCC /* HttpResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpResponse.swift; sourceTree = "<group>"; };
+		C92A50581D4F1F7500ED9DCC /* HttpRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpRouter.swift; sourceTree = "<group>"; };
+		C92A50591D4F1F7500ED9DCC /* HttpServer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpServer.swift; sourceTree = "<group>"; };
+		C92A505A1D4F1F7500ED9DCC /* HttpServerIO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpServerIO.swift; sourceTree = "<group>"; };
+		C92A505B1D4F1F7500ED9DCC /* Process.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Process.swift; sourceTree = "<group>"; };
+		C92A505C1D4F1F7500ED9DCC /* Scopes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scopes.swift; sourceTree = "<group>"; };
+		C92A505D1D4F1F7500ED9DCC /* Socket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Socket.swift; sourceTree = "<group>"; };
+		C92A505E1D4F1F7500ED9DCC /* String+BASE64.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+BASE64.swift"; sourceTree = "<group>"; };
+		C92A505F1D4F1F7500ED9DCC /* String+Misc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Misc.swift"; sourceTree = "<group>"; };
+		C92A50601D4F1F7500ED9DCC /* String+SHA1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+SHA1.swift"; sourceTree = "<group>"; };
+		C92A50611D4F1F7500ED9DCC /* WebSockets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebSockets.swift; sourceTree = "<group>"; };
+		C92A50721D4F206A00ED9DCC /* QZZServer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QZZServer.swift; sourceTree = "<group>"; };
+		C92A50771D4F20E100ED9DCC /* UserRecord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserRecord.swift; sourceTree = "<group>"; };
+		C92A50791D4F24A600ED9DCC /* data.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = data.db; sourceTree = "<group>"; };
+		C92A507B1D4F342600ED9DCC /* DataAccess.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataAccess.swift; sourceTree = "<group>"; };
+		C92A50801D4F596500ED9DCC /* Statistic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Statistic.swift; sourceTree = "<group>"; };
+		C998445B1D506C9C00FD54D9 /* QALibrary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QALibrary.swift; sourceTree = "<group>"; };
+		C9CCB4491D4F1924006D5208 /* QZZServer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QZZServer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9CCB44C1D4F1924006D5208 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C9CCB44E1D4F1924006D5208 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C9CCB4511D4F1924006D5208 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		C9CCB4531D4F1924006D5208 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9CCB45A1D4F1947006D5208 /* SQLiteDB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLiteDB.swift; sourceTree = "<group>"; };
+		C9CCB45B1D4F1947006D5208 /* SQLTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLTable.swift; sourceTree = "<group>"; };
+		C9CCB45C1D4F1947006D5208 /* String-Extras.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String-Extras.swift"; sourceTree = "<group>"; };
+		C9CCB45D1D4F1947006D5208 /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		C9CCB4621D4F1985006D5208 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C9CCB4461D4F1924006D5208 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9CCB4631D4F1985006D5208 /* libsqlite3.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C92A50501D4F1F7500ED9DCC /* Server */ = {
+			isa = PBXGroup;
+			children = (
+				C92A50511D4F1F7500ED9DCC /* Sources */,
+			);
+			path = Server;
+			sourceTree = "<group>";
+		};
+		C92A50511D4F1F7500ED9DCC /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				C92A50521D4F1F7500ED9DCC /* DemoServer.swift */,
+				C92A50531D4F1F7500ED9DCC /* File.swift */,
+				C92A50541D4F1F7500ED9DCC /* Files.swift */,
+				C92A50551D4F1F7500ED9DCC /* HttpParser.swift */,
+				C92A50561D4F1F7500ED9DCC /* HttpRequest.swift */,
+				C92A50571D4F1F7500ED9DCC /* HttpResponse.swift */,
+				C92A50581D4F1F7500ED9DCC /* HttpRouter.swift */,
+				C92A50591D4F1F7500ED9DCC /* HttpServer.swift */,
+				C92A505A1D4F1F7500ED9DCC /* HttpServerIO.swift */,
+				C92A505B1D4F1F7500ED9DCC /* Process.swift */,
+				C92A505C1D4F1F7500ED9DCC /* Scopes.swift */,
+				C92A505D1D4F1F7500ED9DCC /* Socket.swift */,
+				C92A505E1D4F1F7500ED9DCC /* String+BASE64.swift */,
+				C92A505F1D4F1F7500ED9DCC /* String+Misc.swift */,
+				C92A50601D4F1F7500ED9DCC /* String+SHA1.swift */,
+				C92A50611D4F1F7500ED9DCC /* WebSockets.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		C92A50741D4F209500ED9DCC /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				C92A50501D4F1F7500ED9DCC /* Server */,
+				C9CCB4591D4F1947006D5208 /* DB */,
+			);
+			name = Vendor;
+			path = QZZServer;
+			sourceTree = "<group>";
+		};
+		C92A50761D4F20B200ED9DCC /* DBModel */ = {
+			isa = PBXGroup;
+			children = (
+				C92A50771D4F20E100ED9DCC /* UserRecord.swift */,
+				C92A50801D4F596500ED9DCC /* Statistic.swift */,
+			);
+			name = DBModel;
+			sourceTree = "<group>";
+		};
+		C9CCB4401D4F1924006D5208 = {
+			isa = PBXGroup;
+			children = (
+				C9CCB44B1D4F1924006D5208 /* QZZServer */,
+				C92A50741D4F209500ED9DCC /* Vendor */,
+				C9CF57171D51A196001AF650 /* Resource */,
+				C9CCB44A1D4F1924006D5208 /* Products */,
+				C9CCB4611D4F1985006D5208 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C9CCB44A1D4F1924006D5208 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9CCB4491D4F1924006D5208 /* QZZServer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9CCB44B1D4F1924006D5208 /* QZZServer */ = {
+			isa = PBXGroup;
+			children = (
+				C92A50761D4F20B200ED9DCC /* DBModel */,
+				C9CCB44C1D4F1924006D5208 /* AppDelegate.swift */,
+				C92A50721D4F206A00ED9DCC /* QZZServer.swift */,
+				C998445B1D506C9C00FD54D9 /* QALibrary.swift */,
+				C92A507B1D4F342600ED9DCC /* DataAccess.swift */,
+			);
+			path = QZZServer;
+			sourceTree = "<group>";
+		};
+		C9CCB4591D4F1947006D5208 /* DB */ = {
+			isa = PBXGroup;
+			children = (
+				C9CCB45A1D4F1947006D5208 /* SQLiteDB.swift */,
+				C9CCB45B1D4F1947006D5208 /* SQLTable.swift */,
+				C9CCB45C1D4F1947006D5208 /* String-Extras.swift */,
+			);
+			path = DB;
+			sourceTree = "<group>";
+		};
+		C9CCB4611D4F1985006D5208 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C9CCB4621D4F1985006D5208 /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C9CF57171D51A196001AF650 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				C9CCB45D1D4F1947006D5208 /* Bridging-Header.h */,
+				C92A50791D4F24A600ED9DCC /* data.db */,
+				C9CCB44E1D4F1924006D5208 /* Assets.xcassets */,
+				C9CCB4501D4F1924006D5208 /* MainMenu.xib */,
+				C9CCB4531D4F1924006D5208 /* Info.plist */,
+			);
+			name = Resource;
+			path = QZZServer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C9CCB4481D4F1924006D5208 /* QZZServer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9CCB4561D4F1924006D5208 /* Build configuration list for PBXNativeTarget "QZZServer" */;
+			buildPhases = (
+				C9CCB4451D4F1924006D5208 /* Sources */,
+				C9CCB4461D4F1924006D5208 /* Frameworks */,
+				C9CCB4471D4F1924006D5208 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QZZServer;
+			productName = TestS1;
+			productReference = C9CCB4491D4F1924006D5208 /* QZZServer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9CCB4411D4F1924006D5208 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = ff;
+				TargetAttributes = {
+					C9CCB4481D4F1924006D5208 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 7XN54D5B43;
+						DevelopmentTeamName = "Fuyi Yang (Personal Team)";
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C9CCB4441D4F1924006D5208 /* Build configuration list for PBXProject "QZZServer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C9CCB4401D4F1924006D5208;
+			productRefGroup = C9CCB44A1D4F1924006D5208 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9CCB4481D4F1924006D5208 /* QZZServer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C9CCB4471D4F1924006D5208 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C92A507A1D4F24A600ED9DCC /* data.db in Resources */,
+				C9CCB44F1D4F1924006D5208 /* Assets.xcassets in Resources */,
+				C9CCB4521D4F1924006D5208 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C9CCB4451D4F1924006D5208 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C92A506D1D4F1F7500ED9DCC /* Socket.swift in Sources */,
+				C92A50671D4F1F7500ED9DCC /* HttpResponse.swift in Sources */,
+				C92A50651D4F1F7500ED9DCC /* HttpParser.swift in Sources */,
+				C998445C1D506C9C00FD54D9 /* QALibrary.swift in Sources */,
+				C92A50691D4F1F7500ED9DCC /* HttpServer.swift in Sources */,
+				C9CCB44D1D4F1924006D5208 /* AppDelegate.swift in Sources */,
+				C92A50711D4F1F7500ED9DCC /* WebSockets.swift in Sources */,
+				C92A50631D4F1F7500ED9DCC /* File.swift in Sources */,
+				C92A50681D4F1F7500ED9DCC /* HttpRouter.swift in Sources */,
+				C92A50641D4F1F7500ED9DCC /* Files.swift in Sources */,
+				C9CCB4601D4F1947006D5208 /* String-Extras.swift in Sources */,
+				C92A50661D4F1F7500ED9DCC /* HttpRequest.swift in Sources */,
+				C92A506C1D4F1F7500ED9DCC /* Scopes.swift in Sources */,
+				C92A506A1D4F1F7500ED9DCC /* HttpServerIO.swift in Sources */,
+				C9CCB45E1D4F1947006D5208 /* SQLiteDB.swift in Sources */,
+				C92A507C1D4F342600ED9DCC /* DataAccess.swift in Sources */,
+				C92A50621D4F1F7500ED9DCC /* DemoServer.swift in Sources */,
+				C92A50781D4F20E100ED9DCC /* UserRecord.swift in Sources */,
+				C92A50731D4F206A00ED9DCC /* QZZServer.swift in Sources */,
+				C9CCB45F1D4F1947006D5208 /* SQLTable.swift in Sources */,
+				C92A506E1D4F1F7500ED9DCC /* String+BASE64.swift in Sources */,
+				C92A50701D4F1F7500ED9DCC /* String+SHA1.swift in Sources */,
+				C92A506F1D4F1F7500ED9DCC /* String+Misc.swift in Sources */,
+				C92A50811D4F596500ED9DCC /* Statistic.swift in Sources */,
+				C92A506B1D4F1F7500ED9DCC /* Process.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C9CCB4501D4F1924006D5208 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9CCB4511D4F1924006D5208 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C9CCB4541D4F1924006D5208 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C9CCB4551D4F1924006D5208 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		C9CCB4571D4F1924006D5208 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = QZZServer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wesley8939.TestS1;
+				PRODUCT_NAME = QZZServer;
+				SWIFT_OBJC_BRIDGING_HEADER = "QZZServer/Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C9CCB4581D4F1924006D5208 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = QZZServer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wesley8939.TestS1;
+				PRODUCT_NAME = QZZServer;
+				SWIFT_OBJC_BRIDGING_HEADER = "QZZServer/Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C9CCB4441D4F1924006D5208 /* Build configuration list for PBXProject "QZZServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9CCB4541D4F1924006D5208 /* Debug */,
+				C9CCB4551D4F1924006D5208 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9CCB4561D4F1924006D5208 /* Build configuration list for PBXNativeTarget "QZZServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9CCB4571D4F1924006D5208 /* Debug */,
+				C9CCB4581D4F1924006D5208 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C9CCB4411D4F1924006D5208 /* Project object */;
+}
